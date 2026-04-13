@@ -1,0 +1,171 @@
+USE [master];
+GO
+
+IF DB_ID('VP2026KarateKlubZdravstveniPreglediV1') IS NOT NULL
+BEGIN
+    ALTER DATABASE [VP2026KarateKlubZdravstveniPreglediV1] 
+    SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE [VP2026KarateKlubZdravstveniPreglediV1];
+END
+GO
+
+CREATE DATABASE [VP2026KarateKlubZdravstveniPreglediV1];
+GO
+
+USE [VP2026KarateKlubZdravstveniPreglediV1];
+GO
+
+------------------------------------------------------------
+-- 1) Korisnik (login administracije)
+------------------------------------------------------------
+CREATE TABLE [dbo].[Korisnik](
+    [KorisnikID] INT IDENTITY(1,1) NOT NULL,
+    [KorisnickoIme] NVARCHAR(50) NOT NULL,
+    [Lozinka] NVARCHAR(255) NOT NULL,
+    [Ime] NVARCHAR(50) NOT NULL,
+    [Prezime] NVARCHAR(50) NOT NULL
+);
+GO
+
+ALTER TABLE [dbo].[Korisnik]
+ADD CONSTRAINT [PK_Korisnik] PRIMARY KEY CLUSTERED ([KorisnikID] ASC);
+GO
+
+ALTER TABLE [dbo].[Korisnik]
+ADD CONSTRAINT [UQ_Korisnik_KorisnickoIme] UNIQUE ([KorisnickoIme]);
+GO
+
+------------------------------------------------------------
+-- 2) Clan
+------------------------------------------------------------
+CREATE TABLE [dbo].[Clan](
+    [ClanID] INT IDENTITY(1,1) NOT NULL,
+    [JMBG] CHAR(13) NOT NULL,
+    [Ime] NVARCHAR(50) NOT NULL,
+    [Prezime] NVARCHAR(50) NOT NULL,
+    [DatumRodjenja] DATE NOT NULL
+);
+GO
+
+ALTER TABLE [dbo].[Clan]
+ADD CONSTRAINT [PK_Clan] PRIMARY KEY CLUSTERED ([ClanID] ASC);
+GO
+
+ALTER TABLE [dbo].[Clan]
+ADD CONSTRAINT [UQ_Clan_JMBG] UNIQUE ([JMBG]);
+GO
+
+ALTER TABLE [dbo].[Clan]
+ADD CONSTRAINT [CK_Clan_JMBG_Format] CHECK (
+    LEN([JMBG]) = 13 AND [JMBG] NOT LIKE '%[^0-9]%'
+);
+GO
+
+ALTER TABLE [dbo].[Clan]
+ADD CONSTRAINT [CK_Clan_DatumRodjenja] CHECK (
+    [DatumRodjenja] <= CAST(GETDATE() AS DATE)
+);
+GO
+
+------------------------------------------------------------
+-- 3) Zdravstveni pregled
+------------------------------------------------------------
+CREATE TABLE [dbo].[ZdravstveniPregled](
+    [ZdravstveniPregledID] INT IDENTITY(1,1) NOT NULL,
+    [ClanID] INT NOT NULL,
+    [DatumPregleda] DATE NOT NULL,
+    [Napomena] NVARCHAR(255) NULL
+);
+GO
+
+ALTER TABLE [dbo].[ZdravstveniPregled]
+ADD CONSTRAINT [PK_ZdravstveniPregled] PRIMARY KEY CLUSTERED ([ZdravstveniPregledID] ASC);
+GO
+
+ALTER TABLE [dbo].[ZdravstveniPregled]
+ADD CONSTRAINT [FK_ZdravstveniPregled_Clan] FOREIGN KEY ([ClanID])
+REFERENCES [dbo].[Clan]([ClanID])
+ON UPDATE CASCADE
+ON DELETE CASCADE;
+GO
+
+ALTER TABLE [dbo].[ZdravstveniPregled]
+ADD CONSTRAINT [CK_ZdravstveniPregled_Datum] CHECK (
+    [DatumPregleda] <= CAST(GETDATE() AS DATE)
+);
+GO
+
+------------------------------------------------------------
+-- 4) Pogledi
+------------------------------------------------------------
+CREATE VIEW [dbo].[vw_ClanoviSaPoslednjimPregledom]
+AS
+    SELECT
+        c.ClanID,
+        c.JMBG,
+        c.Ime,
+        c.Prezime,
+        c.DatumRodjenja,
+        MAX(zp.DatumPregleda) AS PoslednjiPregled
+    FROM dbo.Clan c
+    LEFT JOIN dbo.ZdravstveniPregled zp ON c.ClanID = zp.ClanID
+    GROUP BY
+        c.ClanID,
+        c.JMBG,
+        c.Ime,
+        c.Prezime,
+        c.DatumRodjenja;
+GO
+
+CREATE VIEW [dbo].[vw_ClanoviSaStatusomPregleda]
+AS
+    SELECT
+        v.ClanID,
+        v.JMBG,
+        v.Ime,
+        v.Prezime,
+        v.DatumRodjenja,
+        v.PoslednjiPregled,
+        CASE
+            WHEN v.PoslednjiPregled IS NULL THEN N'Nema pregleda'
+            WHEN DATEADD(MONTH, 6, v.PoslednjiPregled) >= CAST(GETDATE() AS DATE) THEN N'Aktivan'
+            ELSE N'Neaktivan'
+        END AS StatusZdravstvenogPregleda
+    FROM dbo.vw_ClanoviSaPoslednjimPregledom v;
+GO
+
+CREATE VIEW [dbo].[vw_PreglediSaClanom]
+AS
+    SELECT
+        zp.ZdravstveniPregledID,
+        zp.ClanID,
+        c.JMBG,
+        c.Ime,
+        c.Prezime,
+        c.DatumRodjenja,
+        zp.DatumPregleda,
+        zp.Napomena
+    FROM dbo.ZdravstveniPregled zp
+    INNER JOIN dbo.Clan c ON zp.ClanID = c.ClanID;
+GO
+
+------------------------------------------------------------
+-- Seed podaci (opciono)
+------------------------------------------------------------
+INSERT INTO [dbo].[Korisnik] ([KorisnickoIme], [Lozinka], [Ime], [Prezime])
+VALUES (N'admin', N'admin123', N'Marko', N'Petrovic');
+GO
+
+INSERT INTO [dbo].[Clan] ([JMBG], [Ime], [Prezime], [DatumRodjenja])
+VALUES 
+(N'1234567890123', N'Strahinja', N'Radojcin', '2003-05-15'),
+(N'9876543210123', N'Marko', N'Markovic', '2008-09-20');
+GO
+
+INSERT INTO [dbo].[ZdravstveniPregled] ([ClanID], [DatumPregleda], [Napomena])
+VALUES
+(1, '2025-10-01', N'Redovan pregled'),
+(1, '2026-02-15', N'Kontrolni pregled'),
+(2, '2025-08-10', N'Bez napomene');
+GO
+
