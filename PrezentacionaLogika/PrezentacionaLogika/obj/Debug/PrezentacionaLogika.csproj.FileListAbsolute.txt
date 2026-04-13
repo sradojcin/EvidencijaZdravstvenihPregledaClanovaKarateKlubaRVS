@@ -1,0 +1,29 @@
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\PrezentacionaLogika.dll
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\PrezentacionaLogika.pdb
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\DBUtils.dll
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\KlasePodataka.dll
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\PoslovnaLogika.dll
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\DBUtils.pdb
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\KlasePodataka.pdb
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\PoslovnaLogika.pdb
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\PoslovnaLogika.dll.config
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\obj\Debug\PrezentacionaLogika.csproj.AssemblyReference.cache
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\obj\Debug\PrezentacionaLogika.csproj.CoreCompileInputs.cache
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\obj\Debug\Prezenta.34EB9E51.Up2Date
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\obj\Debug\PrezentacionaLogika.dll
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\obj\Debug\PrezentacionaLogika.pdb
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\XML\PodesavanjaPregleda.xml
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\PrezentacionaLogika.dll
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\PrezentacionaLogika.pdb
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\DBUtils.dll
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\KlasePodataka.dll
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\PoslovnaLogika.dll
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\DBUtils.pdb
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\KlasePodataka.pdb
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\PoslovnaLogika.pdb
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\bin\Debug\PoslovnaLogika.dll.config
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\obj\Debug\PrezentacionaLogika.csproj.AssemblyReference.cache
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\obj\Debug\PrezentacionaLogika.csproj.CoreCompileInputs.cache
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\obj\Debug\Prezenta.34EB9E51.Up2Date
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\obj\Debug\PrezentacionaLogika.dll
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\4_PrezentacioniSloj\PrezentacionaLogika\PrezentacionaLogika\obj\Debug\PrezentacionaLogika.pdb
