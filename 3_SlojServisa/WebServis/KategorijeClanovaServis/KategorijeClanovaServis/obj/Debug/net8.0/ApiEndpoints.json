@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "KategorijeClanovaServis.Controllers.KategorijeClanovaController",
+    "Method": "DajSve",
+    "RelativePath": "api/KategorijeClanova",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KategorijeClanovaServis.Controllers.KategorijeClanovaController",
+    "Method": "DajNaziv",
+    "RelativePath": "api/KategorijeClanova/naziv/{brojGodina}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brojGodina",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

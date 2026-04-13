@@ -1,0 +1,22 @@
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\bin\Debug\KlaseMapiranja.dll
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\bin\Debug\KlaseMapiranja.pdb
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\bin\Debug\KlasePodataka.dll
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\bin\Debug\DBUtils.dll
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\bin\Debug\KlasePodataka.pdb
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\bin\Debug\DBUtils.pdb
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\obj\Debug\KlaseMapiranja.csproj.AssemblyReference.cache
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\obj\Debug\KlaseMapiranja.csproj.CoreCompileInputs.cache
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\obj\Debug\KlaseMap.5F7FA346.Up2Date
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\obj\Debug\KlaseMapiranja.dll
+C:\Users\srado\work\EvidencijaZdravstvenihPregledaKarateKlub\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\obj\Debug\KlaseMapiranja.pdb
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\bin\Debug\KlaseMapiranja.dll
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\bin\Debug\KlaseMapiranja.pdb
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\bin\Debug\KlasePodataka.dll
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\bin\Debug\DBUtils.dll
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\bin\Debug\KlasePodataka.pdb
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\bin\Debug\DBUtils.pdb
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\obj\Debug\KlaseMapiranja.csproj.AssemblyReference.cache
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\obj\Debug\KlaseMapiranja.csproj.CoreCompileInputs.cache
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\obj\Debug\KlaseMap.5F7FA346.Up2Date
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\obj\Debug\KlaseMapiranja.dll
+C:\Users\srado\OneDrive\Radna površina\Strahinja Radojcin SI6-21 RVS\EvidencijaZdravstvenihPregledaKarateKlubRVS\Primer\3_SlojServisa\KlaseMapiranja\KlaseMapiranja\obj\Debug\KlaseMapiranja.pdb

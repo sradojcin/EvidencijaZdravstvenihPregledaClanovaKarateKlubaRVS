@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SpisakKategorija>
+	<KategorijaClana>
+		<SifraKategorije>POL</SifraKategorije>
+		<NazivKategorije>Poletarac</NazivKategorije>
+		<MinGodina>0</MinGodina>
+		<MaxGodina>9</MaxGodina>
+	</KategorijaClana>
+	<KategorijaClana>
+		<SifraKategorije>PIO</SifraKategorije>
+		<NazivKategorije>Pionir</NazivKategorije>
+		<MinGodina>10</MinGodina>
+		<MaxGodina>11</MaxGodina>
+	</KategorijaClana>
+	<KategorijaClana>
+		<SifraKategorije>NAD</SifraKategorije>
+		<NazivKategorije>Nada</NazivKategorije>
+		<MinGodina>12</MinGodina>
+		<MaxGodina>13</MaxGodina>
+	</KategorijaClana>
+	<KategorijaClana>
+		<SifraKategorije>KAD</SifraKategorije>
+		<NazivKategorije>Kadet</NazivKategorije>
+		<MinGodina>14</MinGodina>
+		<MaxGodina>15</MaxGodina>
+	</KategorijaClana>
+	<KategorijaClana>
+		<SifraKategorije>JUN</SifraKategorije>
+		<NazivKategorije>Junior</NazivKategorije>
+		<MinGodina>16</MinGodina>
+		<MaxGodina>17</MaxGodina>
+	</KategorijaClana>
+	<KategorijaClana>
+		<SifraKategorije>SEN</SifraKategorije>
+		<NazivKategorije>Senior</NazivKategorije>
+		<MinGodina>18</MinGodina>
+		<MaxGodina>99</MaxGodina>
+	</KategorijaClana>
+</SpisakKategorija>
